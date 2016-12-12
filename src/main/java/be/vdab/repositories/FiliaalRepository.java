@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import be.vdab.entities.Filiaal;
+import be.vdab.valueobjects.PostcodeReeks;
 
 public interface FiliaalRepository {
 	void create(Filiaal filiaal);
@@ -20,4 +21,6 @@ public interface FiliaalRepository {
 
 	// het aantal werknemers van een filiaal:
 	long findAantalWerknemers(long id);
+
+	List<Filiaal> findByPostcodeReeks(PostcodeReeks reeks);
 }

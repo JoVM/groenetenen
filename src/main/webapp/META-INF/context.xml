@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Context path='/groenetenen'>
+	<Resource name='jdbc/groenetenen'
+		type='javax.sql.DataSource' driverClassName='com.mysql.jdbc.Driver'
+		url='jdbc:mysql://localhost/groenetenen?useSSL=false'
+		username='cursist' password='cursist'
+		closeMethod='close'/>
+</Context>
