@@ -2,6 +2,9 @@ package be.vdab.valueobjects;
 
 import java.io.Serializable;
 
+import javax.persistence.Embeddable;
+
+@Embeddable
 public class Adres implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String straat;
@@ -14,6 +17,10 @@ public class Adres implements Serializable {
 		this.huisNr = huisNr;
 		this.postcode = postcode;
 		this.gemeente = gemeente;
+	}
+
+	protected Adres() {
+
 	}
 
 	public String getStraat() {
