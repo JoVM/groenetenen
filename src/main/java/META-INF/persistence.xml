@@ -3,16 +3,16 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="groenetenen">
-		<non-jta-data-source>
-			java:/comp/env/jdbc/groenetenen 
-		</non-jta-data-source>
-		<class>be.vdab.entities.Filiaal</class>
-		<class>be.vdab.entities.Werknemer</class>
-		<class>be.vdab.valueobjects.Adres</class>
-		<properties>
-			<property name='hibernate.show_sql' value='true' />
-			<property name='hibernate.format_sql' value='true' />
-			<property name='hibernate.use_sql_comments' value='true' />
-		</properties>
+	<!-- <non-jta-data-source> -->
+	<!-- java:/comp/env/jdbc/groenetenen -->
+	<!-- </non-jta-data-source> -->
+	<!-- <class>be.vdab.entities.Filiaal</class> -->
+	<!-- <class>be.vdab.entities.Werknemer</class> -->
+	<!-- <class>be.vdab.valueobjects.Adres</class> -->
+	<!-- <properties> -->
+	<!-- <property name='hibernate.show_sql' value='true' /> -->
+	<!-- <property name='hibernate.format_sql' value='true' /> -->
+	<!-- <property name='hibernate.use_sql_comments' value='true' /> -->
+	<!-- </properties> -->
 	</persistence-unit>
 </persistence>
